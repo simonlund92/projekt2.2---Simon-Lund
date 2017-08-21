@@ -1,0 +1,87 @@
+#overlap {
+	height: 0px;
+}
+
+.mySlides {
+	display:none;
+}
+img.mySlides
+{
+	width:100%;
+}
+
+div.item.active {
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+}
+body{
+    text-align: center;
+	
+}
+img{
+	
+	overflow: auto;
+	width: 100%;
+}
+.baggrund{
+	background-image: url('../img/baggrund2.png');
+	background-size:50% auto;
+	background-repeat: initial;
+}
+/*<----header--->*/
+nav.col-lg-12{
+	z-index: 4;
+	margin-top: 20px;
+	float: none;
+
+}
+
+nav{
+	z-index: 5;
+	
+}
+header {
+ z-index: 1;
+}
+
+li {
+	 display:inline-block; 
+	 /* padding: 1% 1% 1% 1%; */
+	
+}
+
+a {
+	text-decoration: none !important;
+	color: #FFFFFF !important; 
+		
+
+}
+
+/*<----------main---------->*/
+#logo {
+	width: 20% !important;
+}
+
+#billedetekst {
+	padding: 1% 1% 1% 1%;
+}
+
+.carousel-inner .item img{
+    width: 100%;
+}
+
+div.carousel-inner.col-lg-12{
+	max-height: 1080px; 
+
+}
+
+a.right.carousel-control, a.left.carousel-control {
+	background-image: none;
+}
+
+/*<-------------footer----------->*/
+
